@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <!-- nav bar start -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div data-aos="zoom-in" data-aos-duration="3000" class="container-fluid">
+      <a class="navbar-brand" href="#">Tarak</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button onclick="myFunction()"> <img src="images\dark Mode.png" class="dark_button" alt=""></button>
+      </div>
+    </div>
+  </nav>
+  <!-- nav bar end -->
+
+  <!-- banner start--->
+
+  <section class="bannerimg" id="home">
+    <div   class="container-fluid">
+      <div class="row">
+        <div  class="col-md-12 banner-text">
+          <h2 class="banner-title">Hi I am  <b>Tarak</b></h2>
+          <p class="banner-cont">A <b>Web Developer</b> </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about strat -->
+  <section>
+    <div class="container" id="About">
+      <h1 class="text-center">About Me</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images\mypro.jpg" alt="passport pic" class="card-img img-fluid">
+        </div>
+        <div class="col-md-8">
+          <p>Hi !!! <br> I am a Web Developer With a focus on MERN stack 
+          learning the technologies and frameworks which helps me in compete with 
+        the current development. I would love to do in a team because <br> <i>
+          'Alone we can do little things 
+        but together we can do much more things' <br>
+        </i> if you looking to add a person to your team <i> I would love to here from you</i></p>
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li> <b>Name:</b>  T. S. G. Mutyala Raju Undamatla</li>
+                <li><b>Age:</b>20</li>
+                <li> <b>Occupation:</b> Web Developer </li>
+                <li> <a href="ibm port\images\Raju_resume_web.pdf"> Resume </a> </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about end -->
+
+  <!--services start -->
+  <section id="Services">
+    <div class="container">
+      <h1 class="text-center"> Services</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card w-50 mb-3 text-center   ">
+            <div class="card-body">
+              <h5 class="card-title">WebPage</h5>
+              <p class="card-text">I can create a creative and responsive webpages by using the 
+                required languages and the frameworks </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card w-50 mb-3 text-center">
+            <div class="card-body">
+              <h5 class="card-title">WebSites</h5>
+              <p class="card-text">I can create a creative and responsive, Static and Dynamic websites by using the 
+                required languages and the frameworks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--services end -->
+  <!-- portfolio start-->
+  <section id="projects">
+    <div class="container">
+      <h1 class="text-center"> Projects</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <a href="https://bandi-stack.github.io/dice/"><img src="images\dice.png" class="card-img-top" alt="dice">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Roll Dice</h5>
+              <p class="card-text"> This webpage was a game played between the to players for some fun time
+              <b><br>Technologies Used</b>: Html,CSS,JavaScript
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <a href="https://bandi-stack.github.io/Drum-Kit/"><img src="images\drum.png" class="card-img-top" alt="dice">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title"> Drum Kit </h5>
+              <p class="card-text"> This is a webPage Drum kit played for some refreshment only for <i>Music Lovers</i><br> <b>Technologies Used</b>: Html,CSS,JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <a href="http://ejive2k23.lovestoblog.com/?i=3"><img src="images\ejive.png" class="card-img-top" alt=""></a>
+            <div class="card-body">
+              <h5 class="card-title">e-JIVE</h5>
+              <p class="card-text"> This is a website for the clear use of the participants for the national techinical
+                programme to register in the events  very easily and  with a good user interface <b> <br> Technologies Used</b>: Html,CSS,JavaScript,Google Forms</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- portfolio end-->
+  <!--contact start-->
+  <section id="contact">
+    <div class="container-fluid">
+      <h2 class="text-center">Connect</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d488857.1691105831!2d81.43131059699573!3d16.816598498749734!2m3!
+          1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37d2bcec90f833%3A0xd2355f966940f665!2sGunupudi%2C%20Bhimavaram%2C%20Andhra%20Pradesh
+          !5e0!3m2!1sen!2sin!4v1689400952730!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+           referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <!--contact end-->
+</body>
+<footer id="footer">
+  <div class="container-fluid bg-dark py-2">
+    <div class="mt-4 text-center px-1">
+     <h5><i class="bi bi-whatsapp"></i> Whatsapp :+919177134119</h5> 
+     <h5><i class="bi bi-instagram"></i> <a href="https://www.instagram.com/tarak1978raj/">Instagram</a></h5> 
+     <h5><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/undamatla-tarak-surya-gangadhara-mutyala-raju-144341239">LinkedIn</a> </h5>
+    </div>
+  </div>
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+
+}    
+    </script>
+</footer>
+
+</html>
