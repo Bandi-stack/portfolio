@@ -14,7 +14,7 @@ body{
 
 .bannerimg{
   height:100vh;
-  background: url("bgindex.png");
+  background: url("images/bgindex.png");
   background-size:cover;
   position: relative;
 }
